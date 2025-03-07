@@ -1,0 +1,19 @@
+@import './base.css';
+
+.nav-brand {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.nav-pages {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    align-items: stretch;
+}
+
+.nav-brand h1 {
+    margin: 0;
+}

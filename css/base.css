@@ -1,0 +1,14 @@
+:root {
+    --color-primary: #A53DFF;
+    --color-secondary: #132238;
+    --color-accent: #556070;
+    --color-background: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-background);
+}
