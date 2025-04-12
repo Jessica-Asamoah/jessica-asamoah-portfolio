@@ -1,19 +1,97 @@
-@import './base.css';
+@import "./base.css";
 
-.nav-brand {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 80px;
-    padding-right: 80px;
+.hero-section {
+  /* background-color: var(--color-ba); */
+  color: var(--color-primary);
 }
 
-.nav-pages {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    align-items: stretch;
+.jess-image img {
+  width: 100%;
 }
 
-.nav-brand h1 {
-    margin: 0;
+.name {
+  line-height: 1.5;
+}
+
+.name span {
+  display: block;
+  font-size: 4rem;
+  font-weight: 300;
+  color: var(--color-secondary);
+}
+
+.hero-section h2 {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.about {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  color: var(--color-primary);
+}
+
+.about p {
+  margin: 0 auto;
+}
+
+.technologies {
+  text-align: center;
+  background-color: var(--color-main);
+  color: var(--color-primary);
+}
+
+.technologies-list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.technologies-list li {
+  padding-right: 20px;
+}
+
+#projects h2 {
+  text-align: center;
+}
+
+.project-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 2rem;
+}
+
+.project-block img {
+  width: 450px;
+  height: 270px;
+  border-radius: 20px;
+}
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.image-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 450px;
+  height: 270px;
+  /* background-color: var(--color-secondary); */
+  border: 2px solid var(--color-secondary);
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.contact-block {
+  text-align: center;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.contact-block h2 {
+  margin: 0;
 }
