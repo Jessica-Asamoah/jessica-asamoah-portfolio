@@ -78,11 +78,7 @@ ul {
 }
 
 .gradient {
-  background: linear-gradient(
-    90deg,
-    rgba(254, 119, 249, 1) 0%,
-    rgba(9, 3, 101, 1) 100%
-  );
+  background: linear-gradient(90deg, #f6aa1c 0%, #023047 100%);
   height: 2px;
 }
 
