@@ -68,6 +68,15 @@ ul {
   color: var(--color-secondary);
 }
 
+.menu-toggle {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: none; /* hide by default */
+}
+
 .resume-button {
   background-color: #bb3e03;
   color: var(--color-primary);
@@ -99,4 +108,25 @@ footer {
 .footer-item [class*="fa-"] {
   font-size: 200%;
   color: var(--color-secondary);
+}
+
+@media (max-width: 860px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-pages {
+    display: none;
+    flex-direction: column;
+    background: var(--color-main);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .nav-pages.show {
+    display: flex;
+  }
 }
